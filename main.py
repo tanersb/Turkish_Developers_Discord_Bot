@@ -6,6 +6,7 @@ Bot = commands.Bot(command_prefix='!', intents=intents)
 
 token = open('token.txt','r').read()
 
+
 @Bot.event
 async def on_ready():
     print('Ready for action! 💥')
