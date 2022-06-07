@@ -14,6 +14,7 @@ async def on_ready():
 
 badwords = ['bad', 'words', 'here']
 
+
 @Bot.event
 async def on_message(message):
     for i in badwords:  # Go through the list of bad words;
